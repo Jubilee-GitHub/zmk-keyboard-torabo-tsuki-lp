@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans            &trans          &trans              &trans            &trans                                       &trans       &trans             &trans                   &trans                &trans                   &trans
-&trans  &kp Q             &kp W           &kp E               &kp R             &kp T                                        &kp Y        &kp U              &kp I                    &kp O                 &kp P                    &trans
-&trans  &kp A             &kp S           &lt 1 D             &kp F             &kp G        &trans          &trans          &kp H        &kp J              &kp K                    &kp L                 &kp MINUS                &trans
-&trans  &kp Z             &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp LS(N8)      &kp RS(N9)      &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH                &trans
-&trans  &kp LEFT_CONTROL  &kp LEFT_GUI    &trans              &trans            &lt 2 ENTER  &kp LANGUAGE_2  &kp LANGUAGE_1  &lt 3 SPACE  &mo 1              &kp QUESTION             &kp EXCL              &kp RS(INTERNATIONAL_1)  &trans
+&trans  &trans  &trans          &trans              &trans            &trans                                       &trans       &trans             &trans                   &trans                &trans                   &trans
+&trans  &kp Q   &kp W           &kp E               &kp R             &kp T                                        &kp Y        &kp U              &kp I                    &kp O                 &kp P                    &trans
+&trans  &kp A   &kp S           &lt 1 D             &kp F             &kp G        &trans          &trans          &kp H        &kp J              &kp K                    &kp L                 &kp MINUS                &trans
+&trans  &kp Z   &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp LS(N8)      &kp RS(N9)      &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH                &trans
+&trans  &mo 4   &kp LEFT_GUI    &trans              &trans            &lt 2 ENTER  &kp LANGUAGE_2  &kp LANGUAGE_1  &lt 3 SPACE  &mo 1              &kp QUESTION             &kp EXCL              &kp RS(INTERNATIONAL_1)  &trans
             >;
         };
 
