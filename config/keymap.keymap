@@ -22,7 +22,7 @@
             bindings = <
 &trans  &trans            &trans          &trans              &trans            &trans                                       &trans       &trans             &trans                   &trans                &trans                   &trans
 &trans  &kp Q             &kp W           &kp E               &kp R             &kp T                                        &kp Y        &kp U              &kp I                    &kp O                 &kp P                    &trans
-&trans  &kp A             &kp S           &kp D               &kp F             &kp G        &trans          &trans          &kp H        &kp J              &kp K                    &kp L                 &kp MINUS                &trans
+&trans  &kp A             &kp S           &lt 1 D             &kp F             &kp G        &trans          &trans          &kp H        &kp J              &kp K                    &kp L                 &kp MINUS                &trans
 &trans  &kp Z             &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp LS(N8)      &kp RS(N9)      &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH                &trans
 &trans  &kp LEFT_CONTROL  &kp LEFT_GUI    &trans              &trans            &lt 2 ENTER  &kp LANGUAGE_2  &kp LANGUAGE_1  &lt 3 SPACE  &mo 1              &kp QUESTION             &kp EXCL              &kp RS(INTERNATIONAL_1)  &trans
             >;
@@ -30,11 +30,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &mo 5      &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans         &trans        &trans            &trans          &trans                                       &trans    &trans           &trans             &trans         &trans   &trans
+&trans  &kp TAB        &trans        &trans            &trans          &mkp MB5                                     &trans    &kp PAGE_UP      &kp UP_ARROW       &kp PAGE_DOWN  &trans   &trans
+&trans  &kp BACKSPACE  &mkp RCLK     &trans            &mkp LCLK       &mkp MCLK  &trans           &trans           &kp HOME  &kp LEFT         &kp DOWN_ARROW     &kp RIGHT      &kp END  &trans
+&trans  &trans         &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB4   &kp RIGHT_BRACE  &kp NON_US_HASH  &trans    &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &trans   &trans
+&trans  &trans         &trans        &trans            &trans          &trans     &trans           &trans           &trans    &trans           &trans             &trans         &trans   &trans
             >;
         };
 
@@ -80,10 +80,6 @@
     };
 };
 
-&mt {
-    tapping-term-ms = <150>;
-};
+&mt { tapping-term-ms = <150>; };
 
-&lt {
-    tapping-term-ms = <150>;
-};
+&lt { tapping-term-ms = <150>; };
